@@ -24,8 +24,8 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
 ]
 dependencies = [
-    "deta[async]==1.1.0a2",
-    "fastapi==0.88.0",
+    "deta[async]>=1.1.0a2",
+    "fastapi>=0.88.0",
     "aiogram>=3.0.0b6",
 ]
 dynamic = ["version"]
